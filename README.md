@@ -1,15 +1,6 @@
 # Welcome to New PHP MVC by TANHONGIT
 
 The NEW-MVC-SHOP is a free e-commerce website project for everyone to use. It is built in pure PHP language. And anyone can use it.
-- Customers do not need to know much about technology.
-- Powerful system, many useful functions.
-- Easy to access, easy to use.
-
-## Support the project
-Support this project :stuck_out_tongue_winking_eye: :pray:
-<p align="center">
-    <a href="https://www.paypal.me/tanhongcom" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" data-origin="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="PayPal buymeacoffee TanHongIT"></a>
-</p>
 
 # 1. Configuration requirements
 
@@ -98,7 +89,7 @@ so we will have:
 RewriteBase /
 ```
 
-### 5.4 Edit SMTP Mail
+### 5.3 Edit SMTP Mail
 
 > The third thing: 
 You need to change the information about **SMTP Mail** to be able to use some functions about user account authentication, change passwords, notify users, ...
@@ -118,23 +109,6 @@ Tips: https://support.google.com/accounts/answer/185833?hl=en
 
 Path: [`/lib/config/sendmail.php`](https://github.com/TanHongIT/new-mvc-shop/tree/master/lib/config)
 
-# 6. Demo
-
-1. Front-End: [http://tanhongit.epizy.com/new-mvc-shop/home](http://tanhongit.epizy.com/new-mvc-shop/home)
-2. Back-End: [http://tanhongit.epizy.com/new-mvc-shop/admin.php](http://tanhongit.epizy.com/new-mvc-shop/admin.php)
-
-> **_Account login on Backend_**
-
-```
-user :
-    username: testna      | email: test@gmail.com        | password: 123456789
-    username: tanhongitii | email: meowwww@gmail.com.com | password: 123456789
-Mod :
-    username: eyteyt      | email: moderator@gmail.com   | password: 12345678
-
-Admin:
-    username: admin       | email: admin@gmail.com       | password: 1234567890
-```
 # Demo Images
 
 **HomePage**
@@ -156,7 +130,3 @@ Admin:
 ![Image](https://imgur.com/xOpAmb4.png)
 
 ---------------------------------------------------------------------------------
-
-<p align="center">
-     <img src="https://img.shields.io/packagist/l/doctrine/orm.svg" data-origin="https://img.shields.io/packagist/l/doctrine/orm.svg" alt="license">
-</p>
