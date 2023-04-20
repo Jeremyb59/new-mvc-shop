@@ -1,10 +1,4 @@
 <?php
-/**
- * Developed by: TanHongIT
- * Website: https://tanhongit.com - https://tanhongit.net
- * Github: https://github.com/TanHongIT
- */
-
 session_start();
 
 require_once('lib/model.php');
