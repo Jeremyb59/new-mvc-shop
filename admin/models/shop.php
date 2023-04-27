@@ -1,5 +1,5 @@
 <?php
-function categories_delete($id)
+function categoryDestroy($id)
 {
     $id = intval($id);
     require_once('admin/models/products.php');
@@ -9,13 +9,13 @@ function categories_delete($id)
     );
     $products = get_all('products', $options);
     foreach ($products as $product) {
-        products_delete($product['id']);
+        postDestroy($product['id']);
     }
     global $linkConnectDB;
     $sql = "DELETE FROM categories WHERE id=$id";
     mysqli_query($linkConnectDB, $sql) or die(mysqli_error($linkConnectDB));
 }
-function category_uodate()
+function categoryUpdate()
 {
     $name = escape($_POST['name']);
     if (strlen($_POST['slug']) >= 5) $slug = slug($_POST['slug']);

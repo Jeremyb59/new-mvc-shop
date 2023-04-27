@@ -4,7 +4,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-function user_login($input, $password)
+function userLogin($input, $password)
 {
     global $linkConnectDB;
     //autoselect login with username or email : https://stackoverflow.com/questions/16436704/login-with-username-or-email
@@ -37,7 +37,7 @@ function user_login($input, $password)
     }
     return false;
 }
-function user_delete($id)
+function userDestroy($id)
 {
     $user = get_a_record('users', $id);
     $image = 'public/upload/images/' . $user['user_avatar'];
